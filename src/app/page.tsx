@@ -18,4 +18,3 @@ function Page() {
 
 Page.displayName = 'HomePage';
 
-export default Page;

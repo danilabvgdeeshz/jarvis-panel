@@ -108,7 +108,7 @@ class FacebookService {
           id: campaign.id,
           name: campaign.name,
           status: campaign.status.toLowerCase() === 'active' ? 'active' : 'paused',
-          budget: parseFloat((campaign.daily_budget || campaign.lifetime_budget || 0) / 100).toFixed(2),
+          budget: Number(((campaign.daily_budget || campaign.lifetime_budget || 0) / 100).toFixed(2)),
           spend: spend,
           leads: leads,
           cpl: leads > 0 ? spend / leads : 0,

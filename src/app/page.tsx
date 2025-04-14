@@ -16,5 +16,6 @@ function Page() {
   );
 }
 
-Page.displayName = 'HomePage';
+Page.displayName = 'HomePage'; // можно оставить, можно удалить
 
+export default Page; // ОБЯЗАТЕЛЬНО!

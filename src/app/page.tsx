@@ -1,7 +1,7 @@
 import Dashboard from './components/Dashboard';
 import BackgroundGradient from './components/BackgroundGradient';
 
-export default function () {
+function Page() {
   const pageStyle: React.CSSProperties = {
     backgroundColor: '#000',
     minHeight: '100vh',
@@ -15,3 +15,7 @@ export default function () {
     </main>
   );
 }
+
+Page.displayName = 'HomePage';
+
+export default Page;

@@ -1,12 +1,14 @@
-import React from 'react';
-import Dashboard from './components/Dashboard';
-import BackgroundGradient from './components/BackgroundGradient';
+'use client';
 
-function HomePage() {
+import React from 'react';
+import Dashboard from '../components/Dashboard';
+import BackgroundGradient from '../components/BackgroundGradient';
+
+export default function HomePage() {
   const pageStyle = {
-    backgroundColor: '#000',
+    backgroundColor: 'black',
     minHeight: '100vh',
-    position: 'relative',
+    position: 'relative' as 'relative',
     width: '100%',
     padding: 0,
     margin: 0,
@@ -20,5 +22,3 @@ function HomePage() {
     </main>
   );
 }
-
-export default HomePage;

@@ -1,5 +1,5 @@
-import Dashboard from './components/Dashboard';
-import BackgroundGradient from './components/BackgroundGradient';
+import Dashboard from '@/app/components/Dashboard';
+import BackgroundGradient from '@/app/components/BackgroundGradient';
 
 function Page() {
   const pageStyle: React.CSSProperties = {

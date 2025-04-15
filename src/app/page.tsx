@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import Dashboard from '../components/Dashboard';
-import BackgroundGradient from '../components/BackgroundGradient';
+import Dashboard from '@/components/Dashboard';
+import BackgroundGradient from '@/components/BackgroundGradient';
 
 export default function HomePage() {
   const pageStyle = {

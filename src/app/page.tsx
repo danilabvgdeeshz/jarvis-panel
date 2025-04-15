@@ -1,21 +1,5 @@
-import Dashboard from './components/Dashboard';
-import BackgroundGradient from './components/BackgroundGradient';
+import { redirect } from 'next/navigation';
 
-function Page() {
-  const pageStyle: React.CSSProperties = {
-    backgroundColor: '#000',
-    minHeight: '100vh',
-    position: 'relative',
-  };
-
-  return (
-    <main style={pageStyle}>
-      <BackgroundGradient />
-      <Dashboard />
-    </main>
-  );
+export default function HomeRedirect() {
+  redirect('/home');
 }
-
-Page.displayName = 'HomePage'; // можно оставить, можно удалить
-
-export default Page; // ОБЯЗАТЕЛЬНО!

@@ -1,8 +1,7 @@
 'use client';
-
 import React from 'react';
-import Dashboard from '@/components/Dashboard';
-import BackgroundGradient from '@/components/BackgroundGradient';
+import Dashboard from '../app/components/Dashboard';
+import BackgroundGradient from '../app/components/BackgroundGradient';
 
 export default function HomePage() {
   const pageStyle = {
@@ -14,7 +13,6 @@ export default function HomePage() {
     margin: 0,
     overflow: 'hidden'
   };
-
   return (
     <main style={pageStyle}>
       <BackgroundGradient />
